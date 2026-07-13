@@ -1,4 +1,5 @@
 import BannerSection from '@/components/BannerSection'
+import Blog from '@/components/Blog'
 import Features from '@/components/Features'
 import Hero from '@/components/Hero'
 import NewsletterSection from '@/components/NewsletterSection'
@@ -9,6 +10,7 @@ const Home = () => {
     <div>
       <Hero/>
       <Features/>
+      <Blog/>
       <BannerSection/>
       <NewsletterSection/>
     </div>

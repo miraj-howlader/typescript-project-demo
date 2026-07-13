@@ -107,20 +107,20 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-cyan-400" />
                 <a
-                  href="tel:+8801700000000"
+                  href="tel:+880 1404576127"
                   className="text-slate-400 hover:text-cyan-400"
                 >
-                  +880 1700-000000
+                  +880 1404576127
                 </a>
               </div>
 
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-cyan-400" />
                 <a
-                  href="mailto:info@corenet.com"
+                  href="mailto:mirajhowlader9999@gmail.com"
                   className="text-slate-400 hover:text-cyan-400"
                 >
-                  info@corenet.com
+                  mirajhowlader9999@gmail.com
                 </a>
               </div>
             </div>

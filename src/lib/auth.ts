@@ -2,6 +2,7 @@ import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 
+
 if (!process.env.MONGODB_URI) {
   throw new Error("MONGODB_URI is not defined");
 }
@@ -20,4 +21,5 @@ export const auth = betterAuth({
   database: mongodbAdapter(db, {
     client,
   }),
+  
 });

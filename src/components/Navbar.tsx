@@ -25,8 +25,8 @@ export const Navbar: React.FC<NavbarProps> = () => {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
-    { name: "Add Item", path: "/items/add" },
-    { name: "Manage Items", path: "/items/manage" },
+    { name: "Add Item", path: "/add-items" },
+    { name: "Manage Items", path: "/manage-items" },
   ];
 
   const activeRoutes = isLoggedIn ? loggedInRoutes : loggedOutRoutes;

@@ -32,7 +32,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     });
 
     if (error) {
-      toast.error(error.message);
+      
       return;
     }
 
