@@ -1,36 +1,189 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Local Marketplace
 
-## Getting Started
+A modern, responsive marketplace web application built with **Next.js**, **TypeScript**, **MongoDB**, and **Tailwind CSS**. Users can browse, add, edit, and delete marketplace items through a clean and intuitive interface.
 
-First, run the development server:
+## 🚀 Live Demo
+
+- **Frontend:** frontend-rho-gules-24.vercel.app
+- **Backend/API:** backend-sage-nine-56.vercel.app
+
+---
+
+## ✨ Features
+
+- 🔐 Authentication with Better Auth
+- 👤 User Registration & Login
+- 🛒 Add New Marketplace Items
+- ✏️ Update Existing Items
+- 🗑️ Delete Items
+- 📄 View Item Details
+- 🔍 Browse All Items
+- 📱 Fully Responsive Design
+- 🌙 Modern UI using HeroUI
+- ⚡ Server Components & App Router
+- 🔒 Type-safe development with TypeScript
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- HeroUI
+- Lucide React
+- React Hook Form
+- Sonner / React Hot Toast
+
+### Backend
+
+- Next.js API Routes
+- TypeScript
+- Better Auth
+- MongoDB
+- JWT Authentication
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📂 Folder Structure
+
+```bash
+.
+├── app
+│   ├── (pages)
+│   ├── api
+│   ├── dashboard
+│   └── layout.tsx
+│
+├── components
+├── hooks
+├── lib
+├── providers
+├── services
+├── types
+├── public
+└── utils
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+
+
+
+Go to the project folder
+
+```bash
+cd local-marketplace
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local` file
+
+```env
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
+MONGODB_URI=your_mongodb_uri
+
+BETTER_AUTH_SECRET=your_secret
+
+BETTER_AUTH_URL=http://localhost:3000
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev        # Start development server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run build      # Create production build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm run start      # Start production server
 
-## Deploy on Vercel
+npm run lint       # Run ESLint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📸 Screenshots
+
+Add screenshots of your project here.
+
+Example:
+
+```
+public/screenshots/home.png
+
+public/screenshots/details.png
+
+public/screenshots/dashboard.png
+```
+
+---
+
+## 🔑 Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| MONGODB_URI | MongoDB Connection String |
+| BETTER_AUTH_SECRET | Better Auth Secret |
+| BETTER_AUTH_URL | Better Auth Base URL |
+| NEXT_PUBLIC_BASE_URL | Frontend URL |
+
+---
+
+## 🎯 Future Improvements
+
+- ❤️ Wishlist
+- 💳 Payment Integration
+- 📊 User Dashboard
+- 🔎 Advanced Search
+- 🌍 Google Authentication
+- ⭐ Ratings & Reviews
+
+---
+
+## 👨‍💻 Author
+
+**Miraj Howlader**
+
+- GitHub:https://github.com/miraj-howlader
+- LinkedIn: https://www.linkedin.com/in/miraj-howlader-6b19ba352/
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you like this project, don't forget to give it a star on GitHub!
